@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, black, white);
+    padding: 10px;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    margin-bottom: 10px;
+    text-align: center;
+    color: white;
+    border-bottom: solid black 2px;
+    padding-bottom: 10px;
+    font-size: 24px;
+}
+
+input[type="button"],
+input[type="text"] {
+    background-color: black;
+    color: white;
+    border: solid black 2px;
+    width: 100%;
+    padding: 20px;
+    font-size: 18px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+
+input[type="text"] {
+    background-color: white;
+    color: black;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    width: 25%;
+}
+
+@media (max-width: 600px) {
+
+    input[type="button"],
+    input[type="text"] {
+        padding: 15px;
+        font-size: 16px;
+    }
+
+    .title {
+        font-size: 20px;
+    }
+}
